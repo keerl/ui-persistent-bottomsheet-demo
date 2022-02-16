@@ -4,11 +4,17 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@nativescript/core": "~8.1.1",
+    "@nativescript-community/ui-image": "^4.1.4",
+    "@nativescript-community/ui-persistent-bottomsheet": "~0.0.19",
+    "@nativescript/core": "~8.1.5",
+    "@nativescript/tailwind": "^1.0.0-rc.1",
     "@nativescript/theme": "~3.0.1",
-    "svelte-native": "~1.0.0"
+    "svelte-native": "~1.0.0",
+    "tailwindcss": "2.2.19"
   },
   "devDependencies": {
+    "@nativescript/android": "8.1.1",
+    "@nativescript/ios": "8.1.0",
     "@nativescript/types": "~8.1.1",
     "@nativescript/webpack": "~5.0.0",
     "svelte": "~3.44.0",
